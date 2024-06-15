@@ -1,0 +1,92 @@
+body{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(0deg,#1a1b1d 5%, #517493 30%, #f4f4ff 60%);
+}
+header{
+    background-color: #516d86;
+    color: #fff;
+    padding: 20px 0;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul{
+list-style-type: none;
+padding: 0;
+text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 12px 18px 12px 18px;
+    border-radius: 15px;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color: #333;
+    padding: 12px 18px 12px 18px;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+section{
+    padding: 50px 0;
+}
+.container ul li{
+    list-style-type: none;
+}
+footer{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+}
+.formulario{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #c2c4c5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.formulario h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.campo{
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #093d75;
+}
